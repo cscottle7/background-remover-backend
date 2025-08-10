@@ -1,4 +1,6 @@
 {
+  "buildCommand": "",
+  "installCommand": "",
   "functions": {
     "api/*.py": {
       "runtime": "@vercel/python@4.3.0"
