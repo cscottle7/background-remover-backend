@@ -4,15 +4,5 @@
       "runtime": "python3.9",
       "maxDuration": 60
     }
-  },
-  "builds": [
-    {
-      "src": "requirements.txt",
-      "use": "@vercel/python"
-    },
-    {
-      "src": "api/**/*.py",
-      "use": "@vercel/python"
-    }
-  ]
+  }
 }
