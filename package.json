@@ -1,0 +1,13 @@
+{
+  "name": "charactercut-backend",
+  "version": "2.0.0",
+  "description": "CharacterCut Backend API - Dedicated Vercel deployment",
+  "main": "api/process.py",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["background-removal", "ai", "image-processing"],
+  "author": "CharacterCut",
+  "license": "MIT"
+}
